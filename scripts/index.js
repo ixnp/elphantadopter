@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", function() {
   let currentIndex = 1;
 
 
-  //Show Elephants
+  //show elephants
 
-  //show Elephants on adoption List
+  //show elephants on adoption List
 
-  // On click change Elephant
+  // on click change elephant
 
-  // On click add Elephant to My Elephants
+  // on click add elephant to 'My Elephants' list
 
-  // On Submit change an elephants name
+  // on submit change an elephants name from the 'My Elephants' list
 
 });

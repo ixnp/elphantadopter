@@ -17,9 +17,45 @@ A user can:
 * Display one Elephants name, species, image and note at a time.
 * Flip through Elephants using the next and back buttons 
 * See a list of the names of the Elephants they have adopted 
-* Add an elephant to their adopted list (optimistic rendering)
-* Update an adopted elephants name with a PATCH(pessimistic rendering)
+* Add an elephant to their adopted list (POST)(optimistic rendering)
+* Update an adopted elephants name with a (PATCH)(pessimistic rendering)
 
 *Bonus*
 A user can :
-* Delete an elephant 
+* Delete an elephant from the adoption list after it has been adopted.
+
+# Required Headers for POST and PATCH
+```
+  headers: {
+      'Content-Type': 'application/json'
+    }
+
+```
+# Example Response for elephants/:id
+
+```
+   {
+      "id": 20,
+      "name": "Lallah Rookh",
+      "affiliation": "Dan Rice Circus",
+      "species": "Asian",
+      "sex": "Female",
+      "fictional": "false",
+      "dob": "Unavailable",
+      "dod": "1860",
+      "wikilink": "https://en.wikipedia.org/wiki/Lallah_Rookh",
+      "image": "https://elephant-api.herokuapp.com/pictures/missing.jpg",
+      "note": "A female elephant known for her tightrope walking act."
+    }
+``` 
+
+# Example Response for adoption
+
+```
+[
+    {
+      "elephantName": "tom",
+      "id": 1
+    }
+  ]
+```
