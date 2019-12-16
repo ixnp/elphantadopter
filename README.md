@@ -14,7 +14,7 @@ Adopt-a-Elephant is the world's leading adoption app for world's largest land ma
 *MVP User Stories:*
 
 A user can:
-* View an Elephants name, species, image and note.
+* Display one Elephants name, species, image and note at a time.
 * Flip through Elephants using the next and back buttons 
 * See a list of the names of the Elephants they have adopted 
 * Add an elephant to their adopted list (optimistic rendering)
